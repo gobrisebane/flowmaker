@@ -14,7 +14,7 @@ public class MainController {
    
 	  System.out.println("hello ");
 	  
-	  return "test..";
+	  return "test..2";
    }
 
 
