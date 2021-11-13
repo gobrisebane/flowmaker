@@ -14,12 +14,19 @@ public class MainController {
    *
    * */
    
+   /*
+   * vol2 rebase test
+   *
+   * */
+   
    @GetMapping("/")
    public String index(Model model){
-   
-	  System.out.println("hello ");
 	  
-	  return "test..2";
+	  System.out.println("main_branch_test");
+	  
+	  return "main_branch_test";
+	  
+	  
    }
 
 
