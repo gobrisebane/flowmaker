@@ -15,7 +15,7 @@ public class MainController {
    * */
    
    /*
-   * vol2 rebase test - REMASTER
+   * vol2 rebase test
    *
    * by choi
    * */
