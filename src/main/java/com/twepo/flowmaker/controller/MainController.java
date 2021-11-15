@@ -25,7 +25,7 @@ public class MainController {
 	  
 	  System.out.println("main_branch_test");
 	  
-	  return "main_branch_test X";
+	  return "main_branch_test X 2";
 	  
 	  
    }
