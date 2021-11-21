@@ -25,7 +25,7 @@ public class MainController {
 	  
 	  System.out.println("main_branch_test");
 	  
-	  return "main_branch_test X2Css SSCcc";
+	  return "main_branch_test";
 	  
 	  
    }
