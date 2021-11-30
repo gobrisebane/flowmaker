@@ -23,7 +23,7 @@ public class MainController {
    @GetMapping("/")
    public String index(Model model){
 	  System.out.println("main_branch_test");
-	  return "main_braSSn";
+	  return "main_braS";
    }
 
 
