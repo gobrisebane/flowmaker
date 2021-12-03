@@ -16,6 +16,7 @@ spring:
     ##    driver-class-name: org.mariadb.jdbc.Driver
     ##    url: jdbc:mariadb://27.96.131.207:3306/allmytourdb
 
+
     driver-class-name: org.mariadb.jdbc.Driver
 #    url: jdbc:mariadb://twepo.cbmostrietd6.ap-northeast-2.rds.amazonaws.com:3306/flowmaker?&allowMultiQueries=true
     url: jdbc:mariadb://twepo.cbmostrietd6.ap-northeast-2.rds.amazonaws.com:3306/flowmaker
