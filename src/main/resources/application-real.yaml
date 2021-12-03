@@ -1,5 +1,6 @@
 server:
   port: 8088
+  address: 172.31.37.211
 
 
 
