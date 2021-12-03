@@ -1,10 +1,7 @@
 server:
-  port: 8000
-
+  address: 172.31.37.211
 
 spring:
-
-
   datasource:
     ##    driver-class-name: org.mariadb.jdbc.Driver
     ##    url: jdbc:mariadb://127.0.0.1:3308/allmytour_admin
@@ -12,7 +9,6 @@ spring:
     #    url: jdbc:log4jdbc:mariadb://127.0.0.1:3308/allmytour_admin
     #    password: santa4886
     #    username: root
-
     ##    driver-class-name: org.mariadb.jdbc.Driver
     ##    url: jdbc:mariadb://27.96.131.207:3306/allmytourdb
 
