@@ -4,10 +4,12 @@ server:
 
 
 
+
 spring:
   jpa:
     hibernate:
       ddl-auto=none
+
 
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
