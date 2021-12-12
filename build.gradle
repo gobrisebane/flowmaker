@@ -27,6 +27,7 @@ dependencies {
     implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
 
     implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.7.4'
+    compileOnly 'org.mariadb.jdbc:mariadb-java-client'
 
 
     compileOnly 'org.projectlombok:lombok'
