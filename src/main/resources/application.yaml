@@ -1,5 +1,6 @@
 server:
-  address: 172.31.37.211
+  port: 8006
+#  address: 172.31.37.211
 
 spring:
   datasource:
@@ -18,3 +19,19 @@ spring:
     url: jdbc:mariadb://twepo.cbmostrietd6.ap-northeast-2.rds.amazonaws.com:3306/flowmaker
     username: admin
     password: santa4886
+
+
+
+#server:
+#  port: 8007
+
+#spring:
+#  #  jpa:
+#  #    hibernate:
+#  #      ddl-auto:none
+#  datasource:
+#    driver-class-name: org.mariadb.jdbc.Driver
+#    url: jdbc:mariadb://twepo.cbmostrietd6.ap-northeast-2.rds.amazonaws.com:3306/flowmaker
+#    username: admin
+#    password: santa4886
+
