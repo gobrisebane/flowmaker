@@ -1,5 +1,5 @@
 server:
-  port: 8008
+  port: 808
 #  address: 172.31.37.211
 
 spring:
