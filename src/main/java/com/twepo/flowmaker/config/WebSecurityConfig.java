@@ -14,6 +14,19 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.thymeleaf.extras.springsecurity5.dialect.SpringSecurityDialect;
 
 import javax.sql.DataSource;
+
+
+
+@Configuration
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+	
+	@Override
+	protected void configure(HttpSecurity httpSecurity) throws Exception {
+		httpSecurity.authorizeRequests().antMatchers("/").permitAll();
+	}
+	
+}
+
 /*
 
 
@@ -122,13 +135,3 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 */
 
 
-
-@Configuration
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
-	
-	@Override
-	protected void configure(HttpSecurity httpSecurity) throws Exception {
-		httpSecurity.authorizeRequests().antMatchers("/").permitAll();
-	}
-	
-}
