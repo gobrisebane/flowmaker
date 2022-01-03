@@ -1,0 +1,29 @@
+language: java
+jdk:
+	- openjdk11
+
+branches:
+	only:
+		- master
+
+
+#travis 서버의 home
+cache:
+	directories:
+		- '$HOME/.m2/repository'
+		- '$HOME/.gradle'
+
+# master 브랜치에 push되었을때 실행하는 명령어입니다.
+# 여기서는 프로젝트 내부에둔 gradlew 를 이용해 clean and build를 수행합니다!
+
+script: "./gradlew clean build"
+
+
+
+#CI 실행완료시 메일로 알람
+notifications:
+	email:
+		recipients:
+			- gobrisebane@gmail.com
+
+
