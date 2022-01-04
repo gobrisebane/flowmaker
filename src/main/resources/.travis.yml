@@ -1,6 +1,20 @@
-# .travis.yml
 language: java
-script: "make test"
+jdk:
+	- openjdk8
 branches:
 	only:
-		- master
+		- main
+
+# Travis CI Server's Home
+cache:
+	- directories:
+		  - '$HOME/.m2/repository'
+		  - '$HOME/.gradle'
+
+script: "./gradlew clean build"
+
+# CI 실행 완료 시 메일로 알람
+notifications:
+	email:
+		recipients:
+			- gobrisebane@gmail.com
