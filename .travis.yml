@@ -41,11 +41,12 @@ deploy:
     secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
     bucket: flowmaker-springboot-build # S3 버킷
     key: flowmaker-springboot2-webservice.zip #빌드파일을 압축해서 전달
-    bundle_tyle: zip
+    bundle_type: zip
     application: flowmaker-springboot2-webservice
     deployment_group: flowmaker-springboot2-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
+
 
 
 
