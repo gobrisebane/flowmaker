@@ -36,9 +36,20 @@ deploy:
     local_dir: deploy #before_deploy에서 생성한 디렉토리
     wait-until-deployed: true
 
+  - provider: codedeploy
+    access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
+    secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
+    bucket: flowmaker-springboot-build # S3 버킷
+    key: flowmaker-springboot2-webservice.zip #빌드파일을 압축해서 전달
+    bundle_tyle: zip
+    application: flowmaker-springboot2-webservice
+    deployment_group: flowmaker-springboot2-webservice-deployment_group
+    region: ap-northeast-2
+    wait-until-deployed: true
 
 
-# CI 실행 완료 시 메일로 알람
+
+# C 실행 완료 시 메일로 알람
 notifications:
  email:
   recipients:
