@@ -43,7 +43,7 @@ deploy:
     key: flowmaker-springboot2-webservice.zip #빌드파일을 압축해서 전달
     bundle_tyle: zip
     application: flowmaker-springboot2-webservice
-    deployment_group: flowmaker-springboot2-webservice-deployment_group
+    deployment_group: flowmaker-springboot2-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
 
