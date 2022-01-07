@@ -1,11 +1,9 @@
 server:
-  port: 8008
+  port: 8050
+
 
 
 spring:
-#  jpa:
-#    hibernate:
-#      ddl-auto:none
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://twepo.cbmostrietd6.ap-northeast-2.rds.amazonaws.com:3306/flowmaker
@@ -13,31 +11,3 @@ spring:
     password: santa4886
 
 
-
-#spring:
-#  jpa:
-#    hibernate:
-#      ddl-auto: none
-#      ddl-geneate: false
-#      #      ddl-geneate: true
-#      #      ddl-auto: update
-#      use-new-id-generator-mappings: false
-#    show-sql: true
-#    database-platform: org.hibernate.dialect.MariaDB103Dialect
-#
-#
-#  datasource:
-#    ##    driver-class-name: org.mariadb.jdbc.Driver
-#    ##    url: jdbc:mariadb://127.0.0.1:3308/allmytour_admin
-#    #    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-#    #    url: jdbc:log4jdbc:mariadb://127.0.0.1:3308/allmytour_admin
-#    #    password: santa4886
-#    #    username: root
-#
-#    ##    driver-class-name: org.mariadb.jdbc.Driver
-#    ##    url: jdbc:mariadb://27.96.131.207:3306/allmytourdb
-#
-#    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-#    url: jdbc:log4jdbc:mariadb://27.96.131.207:3306/allmytourdb?&allowMultiQueries=true
-#    username: allmytour
-#    password: amt202100!
