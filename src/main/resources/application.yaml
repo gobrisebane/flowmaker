@@ -1,5 +1,5 @@
 server:
-  port: 8050
+  port: 8049
 #  address: 172.31.37.211
 
 spring:
