@@ -4,6 +4,10 @@ plugins {
     id 'java'
 }
 
+jar {
+    enabled = false
+}
+
 group = 'com.twepo'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
@@ -13,6 +17,8 @@ configurations {
         extendsFrom annotationProcessor
     }
 }
+
+
 
 repositories {
     mavenCentral()
@@ -30,7 +36,7 @@ dependencies {
     compileOnly 'org.mariadb.jdbc:mariadb-java-client'
 
 
-    implementation 'org.springframework.boot:spring-boot-maven-plugin:2.6.1'
+    implementation 'org.springframework.boot:spring-boot-maven-plugin:2.6.2'
 
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
