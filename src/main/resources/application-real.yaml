@@ -41,3 +41,4 @@ spring:
 #    url: jdbc:log4jdbc:mariadb://27.96.131.207:3306/allmytourdb?&allowMultiQueries=true
 #    username: allmytour
 #    password: amt202100!
+

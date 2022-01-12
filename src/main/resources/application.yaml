@@ -35,4 +35,3 @@ spring:
 #    url: jdbc:mariadb://twepo.cbmostrietd6.ap-northeast-2.rds.amazonaws.com:3306/flowmaker
 #    username: admin
 #    password: santa4886
-
